@@ -13,5 +13,5 @@ def install(String c, Boolean dynamicLoad, UpdateSite updateSite) {
     }
 }
 
-
+// Jenkins API / UpdateCenter only allows installing the latest version of a plugin (see: https://jenkins.io/doc/book/managing/plugins/#advanced-installation), which sucks...
 install("gradle", dynamicLoad, updateSite)
